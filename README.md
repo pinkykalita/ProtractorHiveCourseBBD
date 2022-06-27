@@ -1,4 +1,4 @@
-![Protractor](./images/protractorLogo.png)
+![Protractor](Images/protractorLogo.png)
 # PROTRACTOR
 
 - [Protractor](#protractor)
