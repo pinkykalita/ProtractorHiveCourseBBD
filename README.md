@@ -1,5 +1,9 @@
 ![Protractor](Images/protractorLogo.png)
 # PROTRACTOR
+-------------
+
+# **Index**
+-------------
 
 - [Protractor](#protractor)
   - [What is Protractor?](#what-is-protractor)
@@ -23,6 +27,7 @@
   - [References](#references)
 
 ## What is Protractor?
+-------------
 
 Protractor is an end-to-end test framework for Angular and AngularJS applications. 
  Protractor runs tests against your application running in a real browser, interacting with it as a user would.
@@ -32,6 +37,7 @@ We can see it as a replacement for the existing AngularJS E2E testing framework 
 
 
 ## What we will learn in this course?
+-------------
 
 - Why we use Protractor?
 - What are the prerequisite of protractor?
@@ -42,6 +48,7 @@ We can see it as a replacement for the existing AngularJS E2E testing framework 
 
 
 ### Why we use protractor?
+-------------
 
 Protractor framework is used for end-to-end testing for Angular and Angular.js application.
 We can write protractor script using javaScript or typeScript.
@@ -52,6 +59,7 @@ Hence all the capabilities of webdriver are supported in protractor.
 It has extra locators compared to selenium webdriver those are model,repeater, binding etc.
 
 ### What are the prerequisite of protractor?
+-------------
 
 We must have basic knowledge about [javaScript](https://javascript.info/) and [Angular.js.](https://angularjs.org/) 
 We should aware about basic technologies used in testing.
@@ -72,8 +80,10 @@ npm --version
 ```
 
 ### Setting Up Protractor:
+-------------
 
 #### Installing Protractor
+-------------
 
 Use npm to install Protractor globally (omit the -g if you’d prefer not to install globally):
 
@@ -93,14 +103,17 @@ The Protractor install includes the following:
 
 
 ### Different frameworks in protractor
+-------------
 
 There are five frameworks in protractor [Jasmine](https://jasmine.github.io/), [Mocha](https://mochajs.org/), [Cucumber](https://github.com/protractor-cucumber-framework/protractor-cucumber-framework), [Serenity/JS](https://serenity-js.org/) and [Custom](https://github.com/angular/protractor/blob/5.4.1/lib/frameworks/README.md#custom-frameworks) Framework you can choose any one of these.
 
 #### Using Jasmine:
+-------------
 
 Currently, Jasmine Version 2.x is supported and the default test framework when we install Protractor.
 
 #### Using Mocha: 
+-------------
 
 If you would like to use the Mocha test framework, you'll need to use the BDD interface and Chai assertions with [Chai As Promised](https://www.chaijs.com/plugins/chai-as-promised/).
 
@@ -131,6 +144,7 @@ expect(myElement.getText()).to.eventually.equal('some text');
 Finally, set the 'framework' property to 'mocha', either by adding `framework: 'mocha'` to the config file or by adding `--framework=mocha` to the command line.
 
 #### Using Cucumber
+-------------
 
 If you would like to use the Cucumber test framework, download the dependencies with npm. To download use following Commands
 
@@ -142,6 +156,7 @@ npm install --save-dev protractor-cucumber-framework
 Set the 'framework' property to custom by adding `framework: 'custom'` and `frameworkPath: 'protractor-cucumber-framework'` to the `config file(cucumberConf.js)
 
 #### Using Serenity/JS:
+-------------
 
 Serenity/JS is an acceptance testing library which can be integrated as a drop-in replacement of Mocha or Cucumber framework adapters to provide advanced scalability and reporting capabilities.
 
@@ -165,13 +180,16 @@ exports.config = {
 ```
 
 #### Using a Custom Framework:
+-------------
 
 You can check these two links [Framework Adapters for Protractor](https://github.com/angular/protractor/blob/5.4.1/lib/frameworks/README.md), [Custom Framework](https://github.com/angular/protractor/blob/5.4.1/lib/frameworks/README.md#custom-frameworks)
 
 
 ### What are different assertion and locators used in protractor?
+-------------
 
 #### Locators:
+-------------
 
 A locator tells Protractor how to find a certain DOM element. Protractor exports locator factories on the global by object. The most common locators are:
 
@@ -205,6 +223,7 @@ element(by.binding('item.name'));
 For more detailed about locator you can [click on this](https://www.protractortest.org/#/locators)
 
 #### Assertions:
+-------------
 
 You can use Jasmine default assertion if you are using Jasmine framework, or you can use chai assertions.
 
@@ -212,8 +231,10 @@ For chai assertion [click on this](https://www.chaijs.com/plugins/chai-as-promis
 
 
 ### What are the advantages and disadvantages of protractor?
+-------------
 
 #### Advantages:
+-------------
 
 1. Protractor runs on top of the selenium webdriver. Hence all the capabilities of webdriver are supported in protractor.
 2. It has extra locators compared to selenium webdriver those are model,repeater, binding etc.
@@ -225,6 +246,7 @@ For chai assertion [click on this](https://www.chaijs.com/plugins/chai-as-promis
 8. Running automation script in multiple machine is achieved in easy way in protractor.
 
 #### Disadvantages:
+-------------
 
 1. It supports only javascript.
 2. It runs very well in chrome browser. It don’t have much support on other browsers.
@@ -232,6 +254,7 @@ For chai assertion [click on this](https://www.chaijs.com/plugins/chai-as-promis
 
 
 ### References:
+-------------
 
 - [Protractor Official Documents](https://www.protractortest.org/#/).
 - [Video Tutorial Course](https://www.udemy.com/course/protractor-tutorial/).
