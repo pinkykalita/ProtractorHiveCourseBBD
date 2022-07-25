@@ -21,12 +21,12 @@
 9. by.binding
 10. by.model
 
-###Assignment II
+### Assignment II
 
 1. Include webdriver in project.
 2. Try to add each locator define above.(use following website ['Calculator webpage'](http://juliemr.github.io/protractor-demo/))
 
-###Assignment III
+### Assignment III
 
 1. Try to automate login functionality of given website [Login Webpage](https://www.globalsqa.com/angularJs-protractor/registration-login-example/#/login)
 
