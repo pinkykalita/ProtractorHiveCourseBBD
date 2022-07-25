@@ -1,9 +1,13 @@
+![Protractor](./images/protractorLogo.png)
+# PROTRACTOR PART I
+
 ![Protractor](Images/protractorLogo.png)
 # PROTRACTOR
 -------------
 
 # **Index**
 -------------
+
 
 - [Protractor](#protractor)
   - [What is Protractor?](#what-is-protractor)
@@ -24,7 +28,6 @@
     - [What are the advantages and disadvantages of protractor?](#what-are-the-advantages-and-disadvantages-of-protractor)
       - [Advantages](#advantages)
       - [Disadvantages](#disadvantages)
-  - [References](#references)
 
 ## What is Protractor?
 -------------
@@ -91,7 +94,7 @@ Use npm to install Protractor globally (omit the -g if you’d prefer not to ins
 npm install -g protractor
 ```
  Check protractor is working by using following command in cmd or terminal.
- 
+
 ```shell
 protractor --version
 ```
@@ -127,7 +130,7 @@ npm install chai-as-promised
 
 We will need to require and set up Chai inside our test files:
 
-```jshelllanguage
+```javascript
 var chai = require('chai');
 var chaiAsPromised = require('chai-as-promised');
 
@@ -137,7 +140,7 @@ var expect = chai.expect;
 
 We can then use Chai As Promised as such:
 
-```jshelllanguage
+```javascript
 expect(myElement.getText()).to.eventually.equal('some text');
 ```
 
@@ -170,7 +173,7 @@ npm install serenity-js --save-dev
 
 and instruct Protractor to use the Serenity/JS adapter:
 
-```jshelllanguage
+```javascript
 exports.config = {
   framework: 'custom',
   frameworkPath: require.resolve('serenity-js')
@@ -193,7 +196,7 @@ You can check these two links [Framework Adapters for Protractor](https://github
 
 A locator tells Protractor how to find a certain DOM element. Protractor exports locator factories on the global by object. The most common locators are:
 
-```jshelllanguage
+```javascript
 // Find an element using a css selector.
 by.css('.myclass')
 
@@ -214,7 +217,7 @@ by.binding('bindingname')
 
 The locators are passed to the `element` function, as below:
 
-```jshelllanguage
+```javascript
 element(by.css('some-css'));
 element(by.model('item.name'));
 element(by.binding('item.name'));
@@ -253,11 +256,3 @@ For chai assertion [click on this](https://www.chaijs.com/plugins/chai-as-promis
 3. Robot class support is not there in Protractor
 
 
-### References:
--------------
-
-- [Protractor Official Documents](https://www.protractortest.org/#/).
-- [Video Tutorial Course](https://www.udemy.com/course/protractor-tutorial/).
-- [JavaScript Tutorials](https://www.w3schools.com/js/).
-- [TypeScript Tutorials](https://www.tutorialspoint.com/typescript/index.htm).
-- [Angular.JS Tutorials](https://www.w3schools.com/angular/).
