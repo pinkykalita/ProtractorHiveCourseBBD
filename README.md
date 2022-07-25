@@ -1,5 +1,5 @@
 ![Protractor](./images/protractorLogo.png)
-# PROTRACTOR
+# PROTRACTOR PART I
 
 - [Protractor](#protractor)
   - [What is Protractor?](#what-is-protractor)
@@ -20,7 +20,6 @@
     - [What are the advantages and disadvantages of protractor?](#what-are-the-advantages-and-disadvantages-of-protractor)
       - [Advantages](#advantages)
       - [Disadvantages](#disadvantages)
-  - [References](#references)
 
 ## What is Protractor?
 
@@ -231,10 +230,3 @@ For chai assertion [click on this](https://www.chaijs.com/plugins/chai-as-promis
 3. Robot class support is not there in Protractor
 
 
-### References:
-
-- [Protractor Official Documents](https://www.protractortest.org/#/).
-- [Video Tutorial Course](https://www.udemy.com/course/protractor-tutorial/).
-- [JavaScript Tutorials](https://www.w3schools.com/js/).
-- [TypeScript Tutorials](https://www.tutorialspoint.com/typescript/index.htm).
-- [Angular.JS Tutorials](https://www.w3schools.com/angular/).
