@@ -1,8 +1,5 @@
 ![Protractor](./images/protractorLogo.png)
 # PROTRACTOR PART I
-
-![Protractor](Images/protractorLogo.png)
-# PROTRACTOR
 -------------
 
 # **Index**
