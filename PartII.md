@@ -20,12 +20,12 @@ describe('Protractor Demo App', function() {
 });
 ```
 
-### Assignment I
+#### Assignment I
 
 1. Create a project in ide include all dependencies.
 2. Configure your framework in config file e.g. custom, jasmin etc.
 
-#### First script for protractor 
+### First script for protractor 
 
 ##### When you start writhing first script in protractor do the following thing in your project
 * Add ``"protractor": "./node_modules/protractor/built/cli.js"`` in a package.json file in script section to run cli tool
@@ -52,7 +52,7 @@ describe('Protractor Demo App', function() {
 
 ```
 
-### Locators used in Protractor 
+#### Locators used in Protractor 
 
 1. by.className
 2. by.id
@@ -65,7 +65,7 @@ describe('Protractor Demo App', function() {
 9. by.binding
 10. by.model
 
-### Assignment II
+#### Assignment II
 
 1. Write your first test spec use following website ['Calculator webpage'](http://juliemr.github.io/protractor-demo/)
 2. Try to add each locator define above.
@@ -109,7 +109,7 @@ Example
 	
 ```
 
-### Assignment III
+#### Assignment III
 
 1. Create first feature file for ['Calculator webpage'](http://juliemr.github.io/protractor-demo/)
 
@@ -141,12 +141,12 @@ Then('User click on login button', async()=> {
 ```
 
 
-### Assignment IV
+#### Assignment IV
 
 1. Create Step Definition for pevious assignment.
 
 
-### Assignmet V
+#### Assignmet V
 
 1. Create End-to-End automation testing and add all features which you add previous assignment
 
