@@ -1,4 +1,5 @@
-![Protractor](./images/protractorLogo.png)
+<img src="./images/protractorLogo.png" alt="Protractor" style="zoom:50%;" />
+
 # PROTRACTOR PART II
 
 
@@ -12,7 +13,7 @@
 
 **Example**
 
-```javacript
+```javascript
 describe('Protractor Demo App', function() {
   it('should have a title', function() {
     //code should be written here
@@ -32,7 +33,7 @@ describe('Protractor Demo App', function() {
 * Add ``"pretest":"npm run webdriver-update && tsc"`` in a package.json file in script section. It convert your typescript test file to javascipt.
 * Add ``"test": "protractor Path_of_your_javascript_file/conf.js"`` in a package.json file in script section. Using npm run test you can execute your test after adding test in script.
 
-#### Things to be need to add in configration file
+#### Things to be need to add in configuration file
 
 * Add ``framework:'custom'`` //you can add any framework which you want to use e.g. jasmine, Mocha, Cucumber etc.
 * Add ``specs : [  '../path of your test script']`` //Invoke test while executing framework.
@@ -69,12 +70,12 @@ describe('Protractor Demo App', function() {
 
 1. Write your first test spec use following website ['Calculator webpage'](http://juliemr.github.io/protractor-demo/)
 2. Try to add each locator define above.
-3. Try to write multiple test spec and excute using test script which is define in package.json
+3. Try to write multiple test spec and execute using test script which is define in package.json
 4. Try to automate login functionality of given website [Login Webpage](https://www.globalsqa.com/angularJs-protractor/registration-login-example/#/login)
 
 
 
-### Cucuber BDD 
+### Cucumber BDD 
 
 #### Lets Started with Cucumber BDD Framework
 
@@ -82,7 +83,7 @@ Cucumber is a software tool that supports behavior-driven development.
 Central to the Cucumber BDD approach is its ordinary language parser called Gherkin. 
 It allows expected software behaviors to be specified in a logical language that customers can understand.
 
-#### To Add Cucmber Framework in Project you need following dependency
+#### To Add Cucumber Framework in Project you need following dependency
 
 ```sh
 npm install cucumber --save-dev
@@ -91,7 +92,7 @@ npm install protractor-cucumber-framework --save-dev
 
 #### Feature in Cucumber BDD Framework
 
-The Feature keyword's aim is to collect relevant scenarios and provide a highlevel description of a software feature.
+The Feature keyword's aim is to collect relevant scenarios and provide a high-level description of a software feature.
 
 Example 
 ```feature
@@ -146,7 +147,7 @@ Then('User click on login button', async()=> {
 1. Create Step Definition for pevious assignment.
 
 
-#### Assignmet V
+#### Assignment V
 
 1. Create End-to-End automation testing and add all features which you add previous assignment
 

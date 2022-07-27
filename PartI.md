@@ -1,4 +1,4 @@
-![Protractor](./images/protractorLogo.png)
+![Protractor](./images/protractorLogo.png) 
 
 # PROTRACTOR PART I
 -------------
@@ -252,5 +252,4 @@ For chai assertion [click on this](https://www.chaijs.com/plugins/chai-as-promis
 1. It supports only javascript.
 2. It runs very well in chrome browser. It don’t have much support on other browsers.
 3. Robot class support is not there in Protractor
-
 
