@@ -1,4 +1,4 @@
-<img src="./images/protractorLogo.png" alt="Protractor" style="zoom:50%;" />
+<img src="./Images/protractorLogo.png" alt="Protractor" style="zoom:50%;" />
 
 # PROTRACTOR PART II
 
